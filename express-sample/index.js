@@ -7,7 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { routeHello, routeAPINames, routeWeather } from './routes';
+import { routeHello, routeAPINames, routeWeather } from './routes.js';
 import express from "express";
 const server = express();
 const port = 3000;

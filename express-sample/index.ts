@@ -1,4 +1,4 @@
-import { routeHello, routeAPINames, routeWeather } from './routes';
+import { routeHello, routeAPINames, routeWeather } from './routes.js';
 import express, {Request, Response } from "express";
 
 const server = express();
