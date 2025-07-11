@@ -4,6 +4,7 @@
     "module": "es6",
     "moduleResolution": "node",                          /* Specify how TypeScript looks up a file from a given module specifier. */
     "target": "es6",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "allowImportingTsExtensions": true
   }
 }
